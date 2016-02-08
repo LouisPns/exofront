@@ -24,10 +24,12 @@
     <![endif]-->
   </head>
 
-  <body class="<%= page_classes %>">
+  <body class="Site">
 
     <%= partial "navbar" %>
+    <div class="Site-content">
     <%= yield %>
+    </div>
     <%= partial "footer" %>
 
 
